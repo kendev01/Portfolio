@@ -3,26 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: 4 6 12;
-  --surface: 13 17 28;
-  --surface-hover: 19 24 38;
-  --border: 30 36 52;
-  --foreground: 241 245 249;
-  --muted: 148 163 184;
-  --accent: 20 184 166;
-  --accent-hover: 45 212 191;
-  --accent-foreground: 4 6 12;
+  --background: 9 9 15;
+  --surface: 19 19 31;
+  --surface-hover: 28 28 46;
+  --border: 42 42 66;
+  --foreground: 242 241 248;
+  --muted: 156 153 184;
+  --accent: 109 94 248;
+  --accent-hover: 139 124 250;
+  --accent-foreground: 250 250 255;
 }
 
 :root[data-theme="light"] {
-  --background: 250 250 252;
+  --background: 248 248 252;
   --surface: 255 255 255;
-  --surface-hover: 244 244 248;
-  --border: 226 229 236;
-  --foreground: 15 23 30;
-  --muted: 90 99 113;
-  --accent: 13 148 136;
-  --accent-hover: 15 118 110;
+  --surface-hover: 242 241 248;
+  --border: 226 225 236;
+  --foreground: 20 18 31;
+  --muted: 97 94 117;
+  --accent: 79 63 214;
+  --accent-hover: 63 47 184;
   --accent-foreground: 255 255 255;
 }
 

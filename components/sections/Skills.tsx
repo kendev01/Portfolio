@@ -29,7 +29,7 @@ export default function Skills() {
                 variants={staggerContainer(0.05)}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
+                viewport={{ once: false, amount: 0.3 }}
                 className="flex flex-wrap gap-3"
               >
                 {items.map((skill) => (

@@ -30,7 +30,7 @@ export default function ParticleNetwork() {
     let height = 0;
     const particles: Particle[] = [];
     let animationId = 0;
-    let accentRgb = "20, 184, 166";
+    let accentRgb = "109, 94, 248";
 
     const mouse = { x: -9999, y: -9999, active: false };
 

@@ -20,7 +20,7 @@ export default function TimelineItem({ item, isLast }: TimelineItemProps) {
         <motion.span
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
-          viewport={{ once: true, amount: 0.6 }}
+          viewport={{ once: false, amount: 0.6 }}
           transition={{ type: "spring", stiffness: 300, damping: 18 }}
           className="z-10 mt-1.5 h-4 w-4 shrink-0 rounded-full bg-accent ring-4 ring-accent/20"
         />
@@ -29,7 +29,7 @@ export default function TimelineItem({ item, isLast }: TimelineItemProps) {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
         className="-mt-1.5 flex-1"
       >

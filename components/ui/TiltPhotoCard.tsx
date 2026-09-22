@@ -60,8 +60,8 @@ export default function TiltPhotoCard() {
         className="pointer-events-none absolute -inset-20"
       >
         <div className="smoke-wisp animate-smoke-1 left-[2%] top-[8%] h-56 w-56 bg-accent/55" />
-        <div className="smoke-wisp animate-smoke-2 right-[0%] top-[28%] h-64 w-64 bg-cyan-400/45" />
-        <div className="smoke-wisp animate-smoke-3 bottom-[4%] left-[16%] h-60 w-60 bg-emerald-400/40" />
+        <div className="smoke-wisp animate-smoke-2 right-[0%] top-[28%] h-64 w-64 bg-violet-400/45" />
+        <div className="smoke-wisp animate-smoke-3 bottom-[4%] left-[16%] h-60 w-60 bg-fuchsia-400/35" />
       </motion.div>
 
       <motion.div

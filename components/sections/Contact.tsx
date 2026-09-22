@@ -43,7 +43,7 @@ export default function Contact() {
         variants={staggerContainer(0.1)}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.3 }}
         className="mx-auto mt-12 grid max-w-3xl gap-5 sm:grid-cols-3"
       >
         {contactInfo.map((item) => {
@@ -97,7 +97,7 @@ export default function Contact() {
         variants={staggerContainer(0.08)}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.5 }}
         className="mt-8 flex justify-center gap-3"
       >
         {socialLinks.map((social) => {

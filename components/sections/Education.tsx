@@ -17,7 +17,7 @@ export default function Education() {
         variants={staggerContainer(0.12)}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
       >
         {education.map((item) => (

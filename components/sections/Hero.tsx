@@ -20,7 +20,8 @@ export default function Hero() {
       <motion.div
         variants={staggerContainer(0.12, 0.1)}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.3 }}
         className="relative z-10 mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-14 px-6 sm:px-8 lg:grid-cols-[1.15fr,0.85fr] lg:px-12"
       >
         <div>
