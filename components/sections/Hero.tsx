@@ -7,7 +7,7 @@ import { staggerContainer, fadeUp, scaleIn } from "@/lib/constants";
 import AnimatedButton from "@/components/ui/AnimatedButton";
 import Magnetic from "@/components/ui/Magnetic";
 import ParticleNetwork from "@/components/ui/ParticleNetwork";
-import TiltPhotoCard from "@/components/ui/TiltPhotoCard";
+import PhotoSpotlight from "@/components/ui/PhotoSpotlight";
 
 export default function Hero() {
   return (
@@ -67,7 +67,7 @@ export default function Hero() {
         </div>
 
         <motion.div variants={scaleIn}>
-          <TiltPhotoCard />
+          <PhotoSpotlight />
         </motion.div>
       </motion.div>
 

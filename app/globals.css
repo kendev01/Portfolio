@@ -83,3 +83,10 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+/* Dissolves the bottom edge of the cropped photo into the page background
+   instead of ending in a hard flat line. */
+.fade-bottom {
+  mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 98%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 98%);
+}
