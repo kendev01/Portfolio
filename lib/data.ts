@@ -44,14 +44,27 @@ export const contactInfo: ContactInfo[] = [
   },
 ];
 
-// TODO: replace "#" with the real profile URLs for each account before
-// deploying — these are placeholders so the Contact section renders, but
-// they don't link anywhere yet.
 export const socialLinks: SocialLink[] = [
-  { platform: "Facebook", href: "#", icon: "SiFacebook" },
-  { platform: "Instagram", href: "#", icon: "SiInstagram" },
-  { platform: "TikTok", href: "#", icon: "SiTiktok" },
-  { platform: "LinkedIn", href: "#", icon: "TbBrandLinkedin" },
+  {
+    platform: "Facebook",
+    href: "https://www.facebook.com/share/1CwjpwKm6R/?mibextid=wwXIfr",
+    icon: "SiFacebook",
+  },
+  {
+    platform: "Instagram",
+    href: "https://www.instagram.com/nethdagreat?stkn=MTJicjJuNzlvb2cwbA%3D%3D&utm_source=qr",
+    icon: "SiInstagram",
+  },
+  {
+    platform: "TikTok",
+    href: "http://www.tiktok.com/@nethhh___",
+    icon: "SiTiktok",
+  },
+  {
+    platform: "LinkedIn",
+    href: "https://www.linkedin.com/in/kenneth-john-bolilan-582464250/",
+    icon: "TbBrandLinkedin",
+  },
 ];
 
 export const skills: Skill[] = [
